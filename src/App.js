@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import './App.scss';
+import { Login } from './Login/Login';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
-                    <p>
-                        Welcome to Home Products Manager App!!!
-          </p>
-                </header>
+                <Login/>
             </div>
         );
     }
